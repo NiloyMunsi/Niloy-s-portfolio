@@ -12,6 +12,7 @@ body{
 }
 section{
     display:flex ;
+    margin-bottom: 100px;
 }
 h1{
     font-size: 40px;
@@ -30,4 +31,9 @@ span{
 .top{
     background-image: url(photos/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
