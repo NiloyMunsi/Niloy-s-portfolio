@@ -10,7 +10,7 @@ body{
     width: 95%;
 
 }
-section{
+.fleaxible{
     display:flex ;
     margin-bottom: 100px;
 }
@@ -42,4 +42,37 @@ span{
 }
 #nil2{
     width: 80%;
+}
+#exprience{
+    padding-left: 2%;
+}
+.shadow{
+    box-shadow: 5px 10px 30px #888888;
+    width: 40%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    text-align: justify;
+}
+.last{
+    background-image: url(photos/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+.rong{
+    color: tomato;
+}
+#no1{
+    border-left:10px solid ;
+    border-image-slice: 1;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+}
+#no2{
+    border-left:10px solid ;
+    border-image-slice: 1;
+    border-image: linear-gradient(#3cc1f6, #4d9f0c) 30;
+}
+footer{
+    text-align: center;
 }
