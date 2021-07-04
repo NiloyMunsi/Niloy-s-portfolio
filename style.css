@@ -22,7 +22,7 @@ span{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(211, 96, 96), pink);
+    background-image: linear-gradient(rgb(226, 34, 34), rgb(240, 148, 72));
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -36,4 +36,10 @@ span{
     background-image: url(photos/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+#about{
+    text-align: center;
+}
+#nil2{
+    width: 80%;
 }
