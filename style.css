@@ -76,3 +76,32 @@ span{
 footer{
     text-align: center;
 }
+
+@media only screen and (max-width:688px) {
+    .fleaxible{
+        flex-direction: column;
+        width: 195%;
+        margin-bottom: 0;
+    }
+    h1{
+        margin:0;
+    }
+    .first p{
+        text-align: justify;
+    }
+    .first{
+        padding: 5px;
+    }
+    .dream-big{
+        flex-direction: column;
+    }
+    #no2{
+        margin-top: 50px;
+    }
+    #exprience{
+        margin:20px 0;
+    }
+    footer{
+        margin: 20px 0;
+    }
+   
